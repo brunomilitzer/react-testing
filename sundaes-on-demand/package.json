@@ -1,14 +1,14 @@
 {
-  "name": "color-button",
+  "name": "sundaes-on-demand",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "eslint-plugin-jest-dom": "^3.9.0",
-    "eslint-plugin-testing-library": "^4.6.0",
+    "bootstrap": "^5.0.2",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
@@ -31,30 +31,7 @@
       "last 1 safari version"
     ]
   },
-  "prettier": {
-    "singleQuote": true,
-    "bracketSpacing": true
-  },
-  "eslintConfig": {
-    "plugins": [
-      "testing-library",
-      "jest-dom"
-    ],
-    "settings": {
-      "eslint.validate": ["javascript", "javascriptreact"],
-      "editor.codeActionsOnSave":{
-        "source.fixAll.eslint": true
-      }
-    },
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "plugin:testing-library/react",
-      "plugin:jest-dom/recommended"
-    ]
-  },
   "devDependencies": {
-    "eslint": "^7.29.0",
-    "prettier": "2.3.2"
+    "eslint-plugin-jest-dom": "^3.9.0"
   }
 }
