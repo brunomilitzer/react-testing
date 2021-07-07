@@ -728,4 +728,6 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 *.tlog
 
+package-lock.json
+
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,eclipse,visualstudiocode,visualstudio,react,angular,node,sass,macos
